@@ -60,6 +60,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <Content Include="app\404.html" />
     <Content Include="app\favicon.ico" />
     <Content Include="app\images\yeoman.png" />
@@ -77,12 +79,23 @@
     <Content Include="app\views\directives\tasks.html" />
     <Content Include="app\views\main.html" />
     <Content Include="app\views\toms.html" />
+    <Content Include="Gruntfile.js" />
     <Content Include="test\karma.conf.js" />
     <Content Include="test\spec\controllers\about.js" />
     <Content Include="test\spec\controllers\main.js" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="test\.jshintrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".bowerrc" />
+    <Content Include=".editorconfig" />
+    <Content Include=".jscsrc" />
+    <Content Include=".jshintrc" />
+    <Content Include=".yo-rc.json" />
+    <Content Include="bower.json" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
